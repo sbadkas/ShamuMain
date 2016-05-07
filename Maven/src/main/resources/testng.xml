@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false">
-  <test name="TestFirefox">
- <parameter name= "Browser" value="firefox"/>
-  <classes>
-      <class name="Testcases.CrossBrowser"/>
-     
-    </classes>
-    
-  </test> <!-- Test -->
-  
-   <test name="TestChrome">
- <parameter name= "Browser" value="chrome"/>
-  <classes>
-      <class name="Testcases.CrossBrowser"/>
-     
-    </classes>
-    
-  </test> <!-- Test -->
   
     <test name="TestProperty">
  
   <classes>
-      <class name="Testcases.TestConfig"/>
+      <class name="Testcases.PushClass"/>
      
     </classes>
     
